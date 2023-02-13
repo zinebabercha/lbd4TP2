@@ -1,0 +1,67 @@
+table,  td {
+    border:1px solid black;
+    width: 100%;
+  }
+
+.main{
+    border: 1px solid black;
+}
+
+
+
+.yellow{
+    background-color: yellow;
+    grid-area: y;
+}
+.blue{
+    background-color: blue;
+    grid-area: b;
+
+}
+.red{
+    background-color: red;
+    grid-area: r;
+
+}
+.purple{
+    background-color: purple;
+    grid-area: p;
+
+}
+.black{
+    background-color: black;
+    grid-area: ba;
+
+}
+.orange{
+    background-color: orange;
+    grid-area: o;
+
+
+}
+.cian{
+    background-color: cyan;
+    grid-area: c;
+
+
+}
+.aqua{
+    background-color: aqua;
+    grid-area: a;
+
+}
+.bisque{
+    background-color: bisque;
+    grid-area: bi;
+
+}
+.blueviolet{
+    background-color: blueviolet;
+    grid-area: bl;
+
+}
+.container{
+    display: grid;
+    grid-template-areas: 'y b r p ba'
+    'o c a bi bl' ;
+}
